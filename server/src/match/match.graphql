@@ -1,0 +1,13 @@
+type Query {
+    matches(userId: ID!): [Match!]
+}
+
+type Subscription {
+    newMatch(userId: ID!): Member
+}
+
+type Match {
+    id: ID!
+    date: String!
+    users: [User]
+}
