@@ -1,4 +1,4 @@
-import { Member } from 'src/member/entites/member.entity';
+import { Member } from 'src/member/entities/member.entity';
 import { 
     Entity, 
     PrimaryGeneratedColumn, 
