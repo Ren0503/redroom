@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
-import { Avatar } from 'styles/shared';
+import { Avatar } from 'components/shared';
 
 const Container = styled.div`
     width: 84px;
